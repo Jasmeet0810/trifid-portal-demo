@@ -5,10 +5,9 @@ import os
 
 # Page settings
 st.set_page_config(page_title="Trifid Media - Smart Campaign Portal", layout="wide")
-st.title("🎯 Smart Campaign Dashboard with AI Assistant")
 
 st.markdown("""
-# 🚀 Trifid Smart Campaign Dashboard
+# Trifid Smart Campaign Dashboard with AI Assistant
 Welcome to your **AI-ready marketing analytics portal**. Track performance, compare platforms, and interact with your data.
 ---
 """)
