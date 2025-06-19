@@ -55,24 +55,23 @@ source venv/bin/activate  # or venv\Scripts\activate on Windows
 pip install -r requirements.txt
 
 # Run the app
-streamlit run app.py
-📈 Sample Dataset Overview
-The provided CSV contains sample metrics across 10 campaign days across 4 platforms:
+- *streamlit run trifid_dashboard.py*
+- 📈 Sample Dataset Overview
+- The provided CSV contains sample metrics across 10 campaign days across 4 platforms:
 
 Columns include: Date, Platform, Impressions, Clicks, Conversions, CTR (%), CPC ($), Conversion Rate (%)
 
 💡 Future Improvements
-Live OpenAI API integration for dynamic assistant responses
-Role-based user authentication
-Client-specific portal dashboards
-Auto PDF/Excel report generation
-Google Analytics/Meta Ads API integration
+- Live OpenAI API integration for dynamic assistant responses
+- Role-based user authentication
+- Client-specific portal dashboards
+- Auto PDF/Excel report generation
+- Google Analytics/Meta Ads API integration
 
-📬 Contact
-For questions, feedback, or collaboration:
-Jasmeet Kaur
-Email: jasmeet08virdi@gmail.com
-LinkedIn: linkedin.com/in/jasmeet-kaur-861486220/
+📬 Contact (For questions, feedback, or collaboration:)
+- Jasmeet Kaur
+- Email: jasmeet08virdi@gmail.com
+- LinkedIn: https://linkedin.com/in/jasmeet-kaur-861486220/
 
 📝 License
 This project is shared as a portfolio/demo. Please do not use for commercial purposes without permission.
