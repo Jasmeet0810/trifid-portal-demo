@@ -20,9 +20,9 @@ This project is a fully functional AI-powered marketing analytics dashboard tail
 
 ## 📁 Files Included
 
-| File/Folder                 | Description                                             |
+| File/Folder                 | Description                                              |
 |-----------------------------|----------------------------------------------------------|
-| `app.py`                    | Main Streamlit application script                        |
+| `trifid_dashboard.py`       | Main Streamlit application script                        |
 | `Trifid_Campaign_Demo.csv`  | Sample campaign performance dataset                      |
 | `requirements.txt`          | Required Python libraries for local setup                |
 | `README.md`                 | Project overview and instructions                        |
@@ -72,7 +72,7 @@ Google Analytics/Meta Ads API integration
 For questions, feedback, or collaboration:
 Jasmeet Kaur
 Email: jasmeet08virdi@gmail.com
-LinkedIn: linkedin.com/in/jasmeet-kaur-virdi
+LinkedIn: linkedin.com/in/jasmeet-kaur-861486220/
 
 📝 License
 This project is shared as a portfolio/demo. Please do not use for commercial purposes without permission.
@@ -80,3 +80,4 @@ Let me know if you'd like:
 - A version with images (you can upload screenshots to your repo)
 - Auto-generated badges (like Streamlit, Python version, etc.)
 - README in PDF or DOCX format for sharing offline
+- Feel Free to contribute only for practice purspose (soon we'll close the contribution)
