@@ -7,6 +7,12 @@ import os
 st.set_page_config(page_title="Trifid Media - Smart Campaign Portal", layout="wide")
 st.title("🎯 Smart Campaign Dashboard with AI Assistant")
 
+st.markdown("""
+# 🚀 Trifid Smart Campaign Dashboard
+Welcome to your **AI-ready marketing analytics portal**. Track performance, compare platforms, and interact with your data.
+---
+""")
+
 # Load CSV
 csv_file = "Trifid_Campaign_Demo.csv"
 if not os.path.exists(csv_file):
@@ -142,4 +148,5 @@ else:
 **Jasmeet Kaur**  
 MSc Artificial Intelligence & Data Analytics  
 GitHub: [jasmeet0810](https://github.com/Jasmeet0810)  
+LinkedIn: [Jasmeet Kaur](https://www.linkedin.com/in/jasmeet-kaur-virdi/)
 """)
