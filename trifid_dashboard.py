@@ -2,8 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import altair as alt
-from langchain.agents import create_csv_agent
-from langchain.chat_models import ChatOpenAI
+import openai
 import os
 
 # App title
@@ -56,15 +55,27 @@ else:
 
     st.altair_chart(line_chart + line_chart_clicks, use_container_width=True)
 
-    # AI Chat Assistant
+    # AI Chat Assistant Simulation
     st.markdown("### 🤖 Ask Your Campaign Assistant")
     query = st.text_input("Type your question (e.g., What was the CTR on June 3?)")
 
     if query:
         with st.spinner("Thinking..."):
-            agent = create_csv_agent(ChatOpenAI(temperature=0, model="gpt-3.5-turbo"), csv_file, verbose=False)
-            response = agent.run(query)
-            st.success(response)
+            # Simulated response logic for demo purposes
+            sample_responses = {
+                "CTR on June 3": "The CTR on June 3 was 2.46%, slightly above your average.",
+                "Impressions trend": "Impressions increased steadily over the 10-day period.",
+                "Which platform performed best": "Instagram had the highest engagement across all KPIs.",
+                "Conversion rate": f"Your average conversion rate was {avg_conv_rate}%."
+            }
+            matched = False
+            for key in sample_responses:
+                if key.lower() in query.lower():
+                    st.success(sample_responses[key])
+                    matched = True
+                    break
+            if not matched:
+                st.info("I'm a demo assistant. Try asking about CTR, impressions trend, or best platform.")
 
     st.markdown("---")
     st.markdown("Built by Jasmeet Kaur \U0001F469‍\U0001F4BB | MSc AI & Data Analytics")
