@@ -20,9 +20,9 @@ This project is a fully functional AI-powered marketing analytics dashboard tail
 
 ## 📁 Files Included
 
-| File/Folder                 | Description                                             |
+| File/Folder                 | Description                                              |
 |-----------------------------|----------------------------------------------------------|
-| `app.py`                    | Main Streamlit application script                        |
+| `trifid_dashboard.py`       | Main Streamlit application script                        |
 | `Trifid_Campaign_Demo.csv`  | Sample campaign performance dataset                      |
 | `requirements.txt`          | Required Python libraries for local setup                |
 | `README.md`                 | Project overview and instructions                        |
@@ -48,33 +48,35 @@ git clone https://github.com/Jasmeet0810/trifid-portal-demo.git
 cd trifid-portal-demo
 
 # Create and activate a virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+> python -m venv venv
+#### linux/mac
+> source venv/bin/activate
+#### Windows
+> venv\Scripts\activate 
 
 # Install dependencies
-pip install -r requirements.txt
+> pip install -r requirements.txt
 
 # Run the app
-streamlit run app.py
-📈 Sample Dataset Overview
-The provided CSV contains sample metrics across 10 campaign days across 4 platforms:
+> streamlit run trifid_dashboard.py
+- 📈 Sample Dataset Overview
+- The provided CSV contains sample metrics across 10 campaign days across 4 platforms:
 
-Columns include: Date, Platform, Impressions, Clicks, Conversions, CTR (%), CPC ($), Conversion Rate (%)
+ *note: Columns include: Date, Platform, Impressions, Clicks, Conversions, CTR (%), CPC ($), Conversion Rate (%)*
 
-💡 Future Improvements
+## 💡 Future Improvements
 Live OpenAI API integration for dynamic assistant responses
 Role-based user authentication
 Client-specific portal dashboards
 Auto PDF/Excel report generation
 Google Analytics/Meta Ads API integration
 
-📬 Contact
-For questions, feedback, or collaboration:
-Jasmeet Kaur
-Email: jasmeet08virdi@gmail.com
-LinkedIn: linkedin.com/in/jasmeet-kaur-virdi
+## 📬 Contact (For questions, feedback, or collaboration:)
+ #### Author: Jasmeet Kaur
+- Email: jasmeet08virdi@gmail.com
+- LinkedIn: https://linkedin.com/in/jasmeet-kaur-861486220
 
-📝 License
+## 📝 License
 This project is shared as a portfolio/demo. Please do not use for commercial purposes without permission.
 Let me know if you'd like:
 - A version with images (you can upload screenshots to your repo)
